@@ -5,17 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".details"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#355E3B">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/detailsTitle"
-        android:textSize="26sp"
-        android:gravity="center"
-        android:padding="12dp"
-        android:textColor="#05a300"
-        android:textStyle="bold"/>
+
 
     <ScrollView
         android:layout_width="match_parent"
@@ -35,10 +28,22 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/detailsTitle"
+                android:textSize="26sp"
+                android:gravity="center"
+                android:padding="12dp"
+                android:textColor="#05a300"
+                android:textStyle="bold"
+                android:background="#F9E79F "/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:id="@+id/detailsText"
                 android:textColor="#424242"
                 android:textSize="18sp"
-                android:layout_margin="10dp"/>
+                android:layout_margin="10dp"
+                android:background="#F9E79F "/>
 
         </LinearLayout>
 

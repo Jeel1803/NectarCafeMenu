@@ -9,4 +9,5 @@
     android:dividerHeight="10sp"
     tools:context=".list_categories">
 
+
 </ListView>
