@@ -26,6 +26,7 @@
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="20dp"
                 app:cardBackgroundColor="#ede7f6"
+                android:onClick="onClickOnPlates"
                 android:id="@+id/card_auckland">
 
                 <RelativeLayout
@@ -44,7 +45,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/Image01"
-                        android:onClick="onClickOnPlates"
                         android:text="ON PLATES" />
 
                 </RelativeLayout>
@@ -56,6 +56,7 @@
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="20dp"
                 app:cardBackgroundColor="#ede7f6"
+                android:onClick="onClickMilkshakes"
                 android:id="@+id/card2">
 
                 <RelativeLayout
@@ -74,7 +75,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/Image02"
-                        android:onClick="onClickMilkshakes"
                         android:text="MILKSHAKES" />
 
                 </RelativeLayout>
@@ -86,6 +86,7 @@
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="20dp"
                 app:cardBackgroundColor="#ede7f6"
+                android:onClick="onClickSmoothies"
                 android:id="@+id/card3">
 
                 <RelativeLayout
@@ -104,7 +105,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/Image03"
-                        android:onClick="onClickSmoothies"
                         android:text="SMOOTIES" />
 
                 </RelativeLayout>
@@ -116,6 +116,7 @@
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="20dp"
                 app:cardBackgroundColor="#ede7f6"
+                android:onClick="onClickSmoothies"
                 android:id="@+id/card4">
 
                 <RelativeLayout
@@ -134,7 +135,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/Image04"
-                        android:onClick="onClickSmoothies"
                         android:text="BREVERAGES" />
 
                 </RelativeLayout>

@@ -31,7 +31,7 @@ public class ListItemsAdapter extends ArrayAdapter<Selection> {
         TextView address = listItemView.findViewById(R.id.list_item_text2);
         address.setText(currentItem.getShortDescription());
 
-        ImageView image = listItemView.findViewById(R.id.   list_image);
+        ImageView image = listItemView.findViewById(R.id.list_image);
         image.setImageResource(currentItem.getImage());
 
         return listItemView;

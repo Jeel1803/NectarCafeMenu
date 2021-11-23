@@ -47,16 +47,16 @@ public class list_categories extends AppCompatActivity {
 
     private void showonPlatesOptions() {
         final ArrayList<Selection> selectionOnPlate = new ArrayList<Selection>();
-        selectionOnPlate.add(new Selection("Auckland Sky Tower", "Federal Street, City Center", R.string.dish1, R.drawable.dish1));
-        selectionOnPlate.add(new Selection("Auckland Sky Tower", "Federal Street, City Center", R.string.dish1, R.drawable.dish1));
-        selectionOnPlate.add(new Selection("Auckland Sky Tower", "Federal Street, City Center", R.string.dish1, R.drawable.dish1));
-        selectionOnPlate.add(new Selection("Auckland Sky Tower", "Federal Street, City Center", R.string.dish1, R.drawable.dish1));
-        selectionOnPlate.add(new Selection("Auckland Sky Tower", "Federal Street, City Center", R.string.dish1, R.drawable.dish1));
-        selectionOnPlate.add(new Selection("Auckland Sky Tower", "Federal Street, City Center", R.string.dish1, R.drawable.dish1));
-        selectionOnPlate.add(new Selection("Auckland Sky Tower", "Federal Street, City Center", R.string.dish1, R.drawable.dish1));
-        selectionOnPlate.add(new Selection("Auckland Sky Tower", "Federal Street, City Center", R.string.dish1, R.drawable.dish1));
-        selectionOnPlate.add(new Selection("Auckland Sky Tower", "Federal Street, City Center", R.string.dish1, R.drawable.dish1));
-        selectionOnPlate.add(new Selection("Auckland Sky Tower", "Federal Street, City Center", R.string.dish1, R.drawable.dish1));
+        selectionOnPlate.add(new Selection("Auckland Sky Tower", "Federal Street, City Center", R.string.dish1, R.drawable.done));
+        selectionOnPlate.add(new Selection("Auckland Sky Tower", "Federal Street, City Center", R.string.dish1, R.drawable.done));
+        selectionOnPlate.add(new Selection("Auckland Sky Tower", "Federal Street, City Center", R.string.dish1, R.drawable.done));
+        selectionOnPlate.add(new Selection("Auckland Sky Tower", "Federal Street, City Center", R.string.dish1, R.drawable.done));
+        selectionOnPlate.add(new Selection("Auckland Sky Tower", "Federal Street, City Center", R.string.dish1, R.drawable.done));
+        selectionOnPlate.add(new Selection("Auckland Sky Tower", "Federal Street, City Center", R.string.dish1, R.drawable.done));
+        selectionOnPlate.add(new Selection("Auckland Sky Tower", "Federal Street, City Center", R.string.dish1, R.drawable.done));
+        selectionOnPlate.add(new Selection("Auckland Sky Tower", "Federal Street, City Center", R.string.dish1, R.drawable.done));
+        selectionOnPlate.add(new Selection("Auckland Sky Tower", "Federal Street, City Center", R.string.dish1, R.drawable.done));
+        selectionOnPlate.add(new Selection("Auckland Sky Tower", "Federal Street, City Center", R.string.dish1, R.drawable.done));
 
 
         ListItemsAdapter listItemsAdapter = new ListItemsAdapter(this, selectionOnPlate);
