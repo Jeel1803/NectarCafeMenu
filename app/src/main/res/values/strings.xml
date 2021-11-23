@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">cafe</string>
+    <string name="dish1">This is the decription of dish 01</string>
+    <item name="dish1" type="drawable"> android:drawable="@drawable/done"</item>
+</resources>
