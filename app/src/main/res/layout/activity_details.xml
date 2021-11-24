@@ -43,15 +43,16 @@
 
                     <TextView
                         android:id="@+id/detailsTitle"
-                        style="@style/CardImageStyle"
-                        android:src="@drawable/done" />
+                        style="@style/DetailsCardTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
 
                     <TextView
-                        style="@style/CardTextStyle"
+                        android:id="@+id/detailsText"
+                        style="@style/DetailsCard"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_below="@+id/detailsTitle"
-                        android:id="@+id/detailsText" />
+                        android:layout_below="@+id/detailsTitle" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>

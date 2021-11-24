@@ -6,4 +6,13 @@
         <bitmap android:gravity="center"
             android:src="@drawable/main_logo"/>
     </item>
+
+    <item>
+        <bitmap
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+             android:src="@drawable/design_by"/>
+    </item>
+
+
 </layer-list>
