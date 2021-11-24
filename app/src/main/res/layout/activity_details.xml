@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".details"
     android:orientation="vertical"
-    android:background="#355E3B">
+    >
 
 
 
@@ -21,29 +21,40 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
+                android:layout_height="wrap_content"
                 android:id="@+id/detailsImage"
                 android:scaleType="centerCrop" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/detailsTitle"
-                android:textSize="26sp"
-                android:gravity="center"
-                android:padding="12dp"
-                android:textColor="#05a300"
-                android:textStyle="bold"
-                android:background="#F9E79F "/>
 
-            <TextView
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card2"
+                style="@style/MainCardStyle"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:id="@+id/detailsText"
-                android:textColor="#424242"
-                android:textSize="18sp"
-                android:layout_margin="10dp"
-                android:background="#F9E79F "/>
+                app:cardBackgroundColor="#ffffff"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+
+                    <TextView
+                        android:id="@+id/detailsTitle"
+                        style="@style/CardImageStyle"
+                        android:src="@drawable/done" />
+
+                    <TextView
+                        style="@style/CardTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/detailsTitle"
+                        android:id="@+id/detailsText" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
 
         </LinearLayout>
 

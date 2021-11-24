@@ -33,4 +33,10 @@ public class MainActivity extends AppCompatActivity {
         categoryListActivity.putExtra("category", "smoothies");
         startActivity(categoryListActivity);
     }
+
+    public void onClickBeverage(View view) {
+        Intent categoryListActivity = new Intent(this, list_categories.class);
+        categoryListActivity.putExtra("category", "bevrages");
+        startActivity(categoryListActivity);
+    }
 }
