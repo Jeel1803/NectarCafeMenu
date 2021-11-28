@@ -44,14 +44,11 @@
                     <TextView
                         android:id="@+id/detailsTitle"
                         style="@style/DetailsCardTitle"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        />
 
                     <TextView
                         android:id="@+id/detailsText"
                         style="@style/DetailsCard"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
                         android:layout_below="@+id/detailsTitle" />
 
                 </RelativeLayout>

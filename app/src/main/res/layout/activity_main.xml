@@ -21,31 +21,35 @@
 
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card_auckland"
+                android:id="@+id/card_1"
                 style="@style/MainCardStyle"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:onClick="onClickOnPlates"
                 app:cardBackgroundColor="#ffffff "
-                app:cardCornerRadius="50dp">
+                app:cardCornerRadius="30dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="16dp">
+                    android:layout_height="wrap_content">
 
 
                     <ImageView
-                        android:id="@+id/Image01"
+                        android:id="@+id/onPlateImage"
                         style="@style/CardImageStyle"
                         android:src="@drawable/on_plates" />
 
                     <TextView
+                        android:id="@+id/OnPlateText"
                         style="@style/CardTextStyle"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@+id/Image01"
+                        android:layout_below="@+id/onPlateImage"
                         android:text="ON PLATES" />
+
+                    <ImageView
+                        style="@style/Arrow"
+                        android:layout_below="@id/onPlateImage"
+                        android:layout_toRightOf="@+id/OnPlateText"
+                        android:src="@drawable/arrow" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -53,29 +57,33 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/card2"
                 style="@style/MainCardStyle"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:onClick="onClickMilkshakes"
                 app:cardBackgroundColor="#ffffff"
                 app:cardCornerRadius="20dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="16dp">
+                    android:layout_height="wrap_content">
 
 
                     <ImageView
-                        android:id="@+id/Image02"
+                        android:id="@+id/milkshakeImage"
                         style="@style/CardImageStyle"
                         android:src="@drawable/milkshake" />
 
                     <TextView
+                        android:id="@+id/milkshakeText"
                         style="@style/CardTextStyle"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@+id/Image02"
+                        android:layout_below="@+id/milkshakeImage"
                         android:text="MILKSHAKES" />
+
+                    <ImageView
+                        style="@style/Arrow"
+                        android:layout_below="@id/milkshakeImage"
+                        android:layout_toRightOf="@+id/milkshakeText"
+                        android:src="@drawable/arrow" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -83,29 +91,33 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/card3"
                 style="@style/MainCardStyle"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:onClick="onClickSmoothies"
                 app:cardBackgroundColor="#ffffff"
                 app:cardCornerRadius="20dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="16dp">
+                    android:layout_height="wrap_content">
 
 
                     <ImageView
-                        android:id="@+id/Image03"
+                        android:id="@+id/smoothieImage"
                         style="@style/CardImageStyle"
                         android:src="@drawable/smoothie" />
 
                     <TextView
+                        android:id="@+id/smoothieText"
                         style="@style/CardTextStyle"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@+id/Image03"
+                        android:layout_below="@+id/smoothieImage"
                         android:text="SMOOTIES" />
+
+                    <ImageView
+                        style="@style/Arrow"
+                        android:layout_below="@id/smoothieImage"
+                        android:layout_toRightOf="@+id/smoothieText"
+                        android:src="@drawable/arrow" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -113,29 +125,34 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/card4"
                 style="@style/MainCardStyle"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:onClick="onClickBeverage"
                 app:cardBackgroundColor="#ffffff"
                 app:cardCornerRadius="20dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="16dp">
+                    android:layout_height="wrap_content">
 
 
                     <ImageView
-                        android:id="@+id/Image04"
+                        android:id="@+id/hotBeveragesImage"
                         style="@style/CardImageStyle"
                         android:src="@drawable/beverages" />
 
                     <TextView
+                        android:id="@+id/hotBeveragesText"
                         style="@style/CardTextStyle"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@+id/Image04"
-                        android:text="BEVERAGES" />
+                        android:layout_below="@+id/hotBeveragesImage"
+                        android:text="HOT BEVERAGES" />
+
+                    <ImageView
+                        style="@style/Arrow"
+                        android:layout_below="@id/hotBeveragesImage"
+                        android:layout_toRightOf="@+id/smoothieText"
+                        android:src="@drawable/arrow"
+                        tools:ignore="NotSibling" />
 
                 </RelativeLayout>
 

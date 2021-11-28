@@ -1,5 +1,6 @@
 package com.jack.cafe;
 
+import android.app.ActivityOptions;
 import android.app.LauncherActivity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -28,24 +29,30 @@ public class list_categories extends AppCompatActivity {
 
         select = intent.getStringExtra("category");
 
+
+
         if(select.equals("onPlates")){
             showonPlatesOptions();
             getSupportActionBar().setTitle("On Plates Options");
+
         }
 
         if(select.equals("milkshakes")){
             showmilkshakesOptions();
             getSupportActionBar().setTitle("Milkshakes Options");
+
         }
 
         if(select.equals("smoothies")){
             showSmoothiesOption();
             getSupportActionBar().setTitle("Smoothies Options");
+
         }
 
         if(select.equals("bevrages")){
             showBevragesOption();
-            getSupportActionBar().setTitle("Bevrages Options");
+            getSupportActionBar().setTitle("Hot Beverages Options");
+
         }
 
     }

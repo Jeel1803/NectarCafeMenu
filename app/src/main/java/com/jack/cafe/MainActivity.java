@@ -20,23 +20,23 @@ public class MainActivity extends AppCompatActivity {
     public void onClickOnPlates(View view) {
         Intent categoryListActivity = new Intent(this, list_categories.class);
         categoryListActivity.putExtra("category", "onPlates");
-        startActivity(categoryListActivity);
+        startActivity(categoryListActivity, ActivityOptions.makeSceneTransitionAnimation(this).toBundle());
     }
     public void onClickMilkshakes(View view) {
         Intent categoryListActivity = new Intent(this, list_categories.class);
         categoryListActivity.putExtra("category", "milkshakes");
-        startActivity(categoryListActivity);
+        startActivity(categoryListActivity, ActivityOptions.makeSceneTransitionAnimation(this).toBundle());
 
     }
     public void onClickSmoothies(View view) {
         Intent categoryListActivity = new Intent(this, list_categories.class);
         categoryListActivity.putExtra("category", "smoothies");
-        startActivity(categoryListActivity);
+        startActivity(categoryListActivity, ActivityOptions.makeSceneTransitionAnimation(this).toBundle());
     }
 
     public void onClickBeverage(View view) {
         Intent categoryListActivity = new Intent(this, list_categories.class);
         categoryListActivity.putExtra("category", "bevrages");
-        startActivity(categoryListActivity);
+        startActivity(categoryListActivity, ActivityOptions.makeSceneTransitionAnimation(this).toBundle());
     }
 }

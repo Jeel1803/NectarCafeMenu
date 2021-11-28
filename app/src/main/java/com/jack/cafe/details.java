@@ -1,5 +1,6 @@
 package com.jack.cafe;
 
+import android.app.ActivityOptions;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
@@ -16,6 +17,7 @@ public class details extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_details);
+        getSupportActionBar().setTitle("Descrpition");
 
         TextView nameTextView = (TextView) findViewById(R.id.detailsTitle);
         ImageView imageView = (ImageView) findViewById(R.id.detailsImage);
