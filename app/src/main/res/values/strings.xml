@@ -1,4 +1,44 @@
 <resources>
     <string name="app_name">cafe</string>
-    <string name="dish1">This is the decription of dish 01</string>
+    <string  name="egg_toast">Cooked any style, Served on Mixed Grain or Organic Toasted Sourdough with Butter and our own Nectar Relish \n\n\n Ingredients:\n\n Preferred bread \n Egg\n Salt\n Onion\n Chilli\n Tomato\n Turmeric\n Coriander Leaves\n Cheese</string>
+    <string name="white_quinoa"> Topped with Pumpkin Seeds, Pineapple, Berry Compote and Coconut Flakes\n\n\n Ingredients:\n\n Organic White Quinoa\n Almond Non-Dairy Beverage \n Organic Raisins\n Organic Ground Cinnamon\n Organic Coconut Butter</string>
+    <string name="oats_porridge">Cooked in Organic Milk Served with Banana and Drizzled Honey\n\n\n Ingredients: \n\n Rolled Oats\n Water\n Milk\n Sugar </string>
+    <string name="egg_benedict"> Free Range Eggs with Baby Spinach topped with fresh Hollandaise and Served on Toasted Sourdough\n\n\n Ingredients:\n\n Bacon\n Eggs\n Vinegar\n English Muffins\n Butter\n Parsley\n Hollandaise Sause</string>
+    <string name="toast_bagels" > Served with Nectar’s Strawberry Jam and Butter\n\n\n Ingredients:\n\n Sesame Seeds\n Poppy Seeds\n Dried Minced Garlic\n Dried Minced Onion\n Kosher Salt\n Red Pepper Flakes</string>
+    <string name="turkish_baked_egg" > Free Range Eggs served Poached In Organic Green Lentils and Red Quinoa with Organic Sourdough and Cream Cheese\n\n\n Ingredients:\n\n Avocado Oil\n Red Onion\n Chorizo Sausage\n Tinned Tomatoes\n Egg\ Fresh Coriander\n Chilli Oil\n Toasted Bread\n Greek Yoghurt</string>
+    <string name="corn_fritters" > With Zucchini and Cheddar, served with Free Range Poached Egg, Sour Cream, Baby Spinach and Red Pesto\n\n\n Ingredients:\n\n Edmonds Standard Flour\n Edmonds Baking Powder\n Salt\n Black Pepper\n Egg\n Cream-Style Corn\n Oil</string>
+    <string name="toasted_sandwich" > Ham, Cheese and Tomato / Chicken, Cheese and Tomato / Mushroom, Cheese and Tomato with Cream Cheese and Mesclun\n\n\n Ingredients: Ham\n Cheese\n Tomato\n Chicken\n Mushroom\n Butter\n Peppers</string>
+    <string name="chocolate_waffle" >With mixed Berries Compote Dark Chocolate Ice Cream, Garnished with Chocolate Ghana and topped with Vanilla Bean Cream\n\n\n Ingredients: \n Sugar\n Milk\n Egg\n Butter\n Vanilla\n Berries\n Chocolate </string>
+    <string name="burger" > Beetroot or Peri- Peri Chicken with Fries\n\n\n Ingredients:\n\n Onions\n Garlic\n Beef\n Mince\n Brioche Bun\n Mayonnaise\n Salad Leaves</string>
+    <string name="chocolate_shake" >Thick and delicious protein chocolate shake\n\n\n Ingredients:\n\n Milk\n Chocolate Powder\n Peanut Butter\n Honey</string>
+    <string name="peanut_shake" > Thick and delicious peanut butter and brownie milk shake\n\n\n Ingredients: \n\n Brownie Bites\n Peanut Butter\n Vanilla Ice Cream\n Milk</string>
+    <string name="strawberry_shake" >A good old-fashioned strawberry milkshake\n\n\nIngredients:\n\n Vanilla\n Milk\n Strawberry\n Whipped Cream</string>
+    <string name="mango_shake" >Refreshing Mango Shake\n\n\n Ingredients:\n\n Mango Pulp\n Milk\n Vanilla </string>
+    <string name="milk_honey_shake" > Sweet and luscious Banana and honey milkshake\n\n\n Ingredients:\n\n Banana\n Manuka Honey\n Milk\n Whipped Cream</string>
+    <string name="vanilla_shake" >A truly singular sensation-Classic Vanilla Milkshake\n\n\n Ingredients: Vanilla\n Milk\n Berries </string>
+    <string name="chocolate_caremel_shake">Thick and delicious chocolate shake with caramel\n\n\n Ingredients:\n\n Dark Chocolate\n Caramel\n Milk\n Whipped Cream </string>
+    <string name="avocado_shake" > Original and healthy avocado shake\n\n\n Ingredients:\n\n Avocado\n Milk</string>
+    <string name="oreo_shake" >Milkshake made with vanilla ice cream, milk, and Oreo cookies! \n\n\n Ingredients:\n\n Oreo Biscuits\n Creamy Milk\n Chocolate Syrup\n Vanilla Ice Cream </string>
+    <string name="kiwi_shake" > Healthy shake made with fresh Kiwis\n\n\n Ingredients:\n\n Kiwi\n Milk</string>
+    <string name="coco_protien" >Our protein-packed smoothie with great taste\n\n\n Ingredients:\n\n Vanilla Almond Milk\n Chocolate Protein Powder\n Cocoa Powder\n Banana\n Almond Butter\n Peanut Butter\n Sweetener </string>
+    <string name="berry_smoothie" >High in Antioxidant Berry Blaze\n\n\n Ingredients: Fresh Spinach\n Water\n Orange\n Strawberry\n Blueberry\n Banana </string>
+    <string name="vitamin_c_smoothie" >Contains Pineapple, Coconut, Vitamin C and LSA\n\n\n Ingredients:\n Pineapple\n Orange\n Mango\n Ginger\n Banana\n Water </string>
+    <string name="blueberry_smoothie" >Health benefits of Spirulina added to your morning smoothie\n\n\n Ingredients:\n\n Banana\n Milk\n Blueberry\n Pineapple\n Spirulina Powder </string>
+    <string name="mango_coconut_smoothie" >Delicious, refreshing, naturally sweet\n\n\n Ingredients:\n\nMango Pulp\n Coconut\n Lime\n Milk</string>
+    <string name="banana_berry_smoothie" >Our healthy and tasty Banana–Berry Smoothie\n\n\n Ingredients:\n\n Banana\n Berry\n Vanilla\n Milk </string>
+    <string name="calming_smoothie" >Our protein-packed smoothie with great taste\n\n\n Ingredients:\n\n Banana\n Blueberry\n Coconut Water\n Walnut\n Oats\n Medjool Dates </string>
+    <string name="immune_smoothie" >This sweet-tart smoothie is packed with nutrient rich, immune boosting ingredients\n\n\n Ingredients:\n\n Spinach\n Kale\n Almond Breeze\n Mango\n Pineapple\n Kiwi\n Lemon\n Ginger </string>
+    Reset your appetite and eating habits and detox with our food based smoothie cleanse\n\n\n Ingredients:\n\n Coconut Water\n Apple\n Red Beet\n Strawberry\n Pineapple\n Avocado\n Baby Spinach\n Lemon\n Cayenne Pepper\n Broccoli<string name="cleanising_smoothie" > </string>
+    <string name="complete_smoothie" >Reset your appetite and eating habits and detox with our food based smoothie cleanse\n\n\n Ingredients: Ingredients:\n\n Coconut Water\n Apple\n Red Beet\n Strawberry\n Pineapple\n Avocado\n Lemon </string>
+    <string name="latte_coffee" >Fresh brewed coffee and steamed milk\n\n\n Ingredients:\n\n Coffee Powder\n Milk </string>
+    <string name="mocha_coffee" > Fresh brewed coffee and creamy steamed milk\n\n\n Ingredients:\n\n Coffee Powder\n Milk</string>
+    <string name="flate_white_coffee" >Fresh brewed coffee and creamy steamed milk\n\n\n Ingredients:\n\n Coffee Powder\n Milk </string>
+    <string name="cappuccino_coffee" >Fresh brewed coffee and creamy steamed milk\n\n\n Ingredients:\n\n Coffee Powder\n Milk\n Chocolate Powder </string>
+    <string name="hot_chocolate" > Chocolate powder and steamed milk with marshmallow\n\n\n Ingredients:\n\n Chocolate Powder\n Milk\n Marshmallow</string>
+    <string name="americano_coffee" > Double shot espresso\n\n\n Ingredients:\n\n Coffee\n Water</string>
+    <string name="short_black_coffee" > Single shot espresso\n\n\n Ingredients:\n\n Coffee\n Water</string>
+    <string name="chai_latte_coffee" > Bittersweet chai sauce and steamed milk\n\n\n Ingredients:\n\n Chai Sauce\n Milk\n Cinnamon</string>
+    <string name="indian_tea" > Tea made in creamy milk with ginger, mint and chai masala\n\n\n Ingredients:\n\n Tea\n Sugar\n Ginger\n Mint Leaves\n Chai Masala\n Milk</string>
+    <string name="green_tea" >Tea made from Camellia sinensis leaves and buds\n\n\n Ingredients:\n\n Green Tea\n Honey\n Water
+    </string>
 </resources>
